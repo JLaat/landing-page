@@ -103,6 +103,7 @@ a {
 .image-container {
     color: gray;
     display: flex;
+    flex-wrap: wrap;
     flex: auto;
     align-items: center;
     justify-content: center;
@@ -121,6 +122,7 @@ img {
     border-radius: 20px;
     border-width: 8px;
     border-color: #3882F6;
+    flex-shrink: 1;
 }
 .low-center .autograph {
     font-size: smaller;
